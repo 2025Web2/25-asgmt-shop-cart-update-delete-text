@@ -19,9 +19,7 @@ sort: 1
 
 まずは、カート内の商品を削除する機能を実装します。
 
-### ◇②-1 ルーティングの設定
-
----
+### ◆②-1 ルーティングの設定
 
 `routes/web.php`に以下のルーティングを追加します。
 
@@ -30,7 +28,7 @@ sort: 1
 - `CartController`の`destroy`メソッドを呼び出すこと
 - ルーティング名を`cart.destroy`に設定すること
 
-### ②-2 削除ボタンの追加
+### ◆②-2 削除ボタンの追加
 
 `resources/views/cart/index.blade.php`を以下のように修正します。
 穴埋めになっている箇所は、[CRUD機能を作ろう！(UPDATE、DELETE編)](https://2025web2.github.io/05-crud-update-delete/)を参考に、埋めるようにしてください。
@@ -107,9 +105,7 @@ sort: 1
 ```
 {% endraw %}
 
-### ②-3 コントローラに削除機能を実装
-
----
+### ◆②-3 コントローラに削除機能を実装
 
 `app/Http/Controllers/CartController.php`を以下のように修正します。
 
@@ -139,7 +135,7 @@ class CartController extends Controller
 
 以上で、カート内の商品を削除する機能が実装できました。
 
-### ②-4 動作確認(削除機能)
+### ◆②-4 動作確認(削除機能)
 
 以下のようにカート内の商品画面で削除ボタンを押し、商品が削除されることを確認してください。
 
