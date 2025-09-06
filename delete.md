@@ -33,7 +33,7 @@ sort: 1
 ### ②-2 削除ボタンの追加
 
 `resources/views/cart/index.blade.php`を以下のように修正します。
-穴埋めになっている箇所は、[CRUD機能を作ろう！(UPDATE、DELETE編)](../shop_cart_delete_update/README.md)を参考に、埋めるようにしてください。
+穴埋めになっている箇所は、[CRUD機能を作ろう！(UPDATE、DELETE編)](https://2025web2.github.io/05-crud-update-delete/)を参考に、埋めるようにしてください。
 
 {% raw %}
 ```php
