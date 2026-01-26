@@ -2,7 +2,7 @@
 
 ## 事前準備
 
-1. [こちらのページ]()から、ソースコードを`C:¥sys_dev_exe`へcloneする
+1. [こちらのページ](https://classroom.github.com/a/Yd-LTGat)から、ソースコードを`C:¥sys_dev_exe`へcloneする
 2. VSCode上で、`Ctrl+Shift+P`(Macの場合は`Cmd+Shift+P`)を押し、コンテナを起動する
 3. VSCode上で、`Ctrl+J`(Macの場合は`Cmd+J`)を押し、ターミナルを表示する
 4. `composer create-project laravel/laravel .` を実行し、Laravel環境を構築する
